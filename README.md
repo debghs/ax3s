@@ -1,6 +1,6 @@
-# 3D Particle Motion Plotter
+# ax3s
 
-This project visualizes the 3D motion of a particle based on continuous input data for position, velocity, and acceleration. The visualization can be done using either Matplotlib or Plotly, and both implementations handle real-time updates.
+This project visualizes the 3D motion of a particle based on continuous input data for position, velocity, and acceleration. The visualization can be done using Matplotlib and it can handle real-time updates.
 
 ## Features
 
@@ -26,4 +26,5 @@ pip install numpy matplotlib
 ## Usage
 - Instead of the random data stream for the velocities and accelerations, link up real data streams.
 - Run the script : ```python plot.py```
+- Change the plot update rate as required.
 
